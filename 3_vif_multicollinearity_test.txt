@@ -1,12 +1,12 @@
 VIF (Çoklu Doğrusallık) Test Sonuçları
 ==================================================
           Degisken  VIF_Skoru
-   Gov_Expenditure   9.389189
-         Inflation   1.400874
-      Unemployment   3.105004
-    Investment_FDI   2.571506
-Real_Interest_Rate   1.466045
-    Trade_Openness   6.579460
+   Gov_Expenditure   1.133423
+         Inflation   1.240288
+      Unemployment   1.121289
+    Investment_FDI   1.069362
+Real_Interest_Rate   1.283564
+    Trade_Openness   1.231692
 
-Metodolojik Not: 
-VIF değerleri 5 ile 10 arasında olan değişkenler (Gov_Expenditure ve Trade_Openness) orta düzeyde çoklu doğrusallık (multicollinearity) problemi barındırmaktadır. Her ne kadar kritik eşik olan 10 değerinin altında kalsalar da, "çoklu doğrusallık sorunu yoktur" demek istatistiksel olarak hatalıdır. Analiz sonuçları yorumlanırken bu bağımlılık göz önünde bulundurulmalıdır.
+Not: VIF skorlarının 5'in altında olması değişkenler arası korelasyon sorunu olmadığını gösterir.
+Değerlerin 1 civarında olması (örneğin 1.2 - 1.5) değişkenler arasında çoklu doğrusallık riskinin olmadığını teyit eder.

@@ -32,8 +32,8 @@ Veriler, Dünya Bankası veri tabanından 18 ülke için `(i=18, t=24)` formatı
 *   **Kriz Kuklası (Crisis Dummy):** 2008, 2009, 2020, 2021 yılları = 1, Diğerleri = 0.
 
 ### 3.1. Diagnostik Testler
-1.  **Çoklu Doğrusallık (VIF):** Tüm bağımsız değişkenlerin VIF değerleri sınır değer olan 10'un altında (maksimum 9.38) kalmıştır.
-2.  **Panel Durağanlık (Stationarity - ADF):** Uygulanan birim kök testlerinde H0 hipotezi (seride birim kök vardır) reddedilememiştir (p > 0.05). Bu durum, mevcut değişkenlerin seviye (level) düzeyinde durağan olmadığını göstermektedir. Olası sahte regresyon risklerine karşı, bulgular değişkenler arası korelasyon çerçevesinde değerlendirilmelidir.
+1.  **Çoklu Doğrusallık (VIF):** Modele sabit (constant) terim eklendiğinde tüm bağımsız değişkenlerin VIF değerleri 1.0 ile 1.5 bandında ölçülmüştür. Bu durum, modelde değişkenler arası çoklu doğrusallık (multicollinearity) probleminin kesinlikle bulunmadığını teyit etmektedir.
+2.  **Panel Durağanlık (Stationarity - Fisher-ADF):** Fisher-ADF meta-analizi testi sonucunda GDP Growth için p-değeri `0.0000`, Gov_Expenditure için ise `0.0217` hesaplanmıştır. P-değerlerinin 0.05'ten küçük olması nedeniyle "Panelde birim kök vardır" diyen H0 hipotezi reddedilmiştir. Sonuç olarak serilerin durağan (stationary) olduğu kanıtlanmış ve sahte regresyon riski ortadan kaldırılmıştır.
 3.  **Model Seçimi:** Sabit Etkiler ve Rassal Etkiler tahmincileri arasındaki Hausman testinde `P-Value = 0.9917 > 0.05` bulunmuş ve analizlere Random Effects ile devam edilmiştir. Analizlerde dirençli (robust) standart hatalar kullanılmıştır.
 
 ---

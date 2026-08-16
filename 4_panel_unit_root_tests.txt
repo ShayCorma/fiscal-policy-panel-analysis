@@ -1,8 +1,8 @@
-Panel Birim Kök (Stationarity) Test Özeti
+Panel Birim Kök Test Özeti (Fisher-ADF Testi)
 ==================================================
-GDP_Growth Ortalama P-Value: 0.2288
-Gov_Expenditure Ortalama P-Value: 0.3783
+GDP_Growth Fisher Chi-Square: 143.4534, P-Value: 0.0000
+Gov_Expenditure Fisher Chi-Square: 42.5119, P-Value: 0.0217
 
 Metodolojik Not:
-ADF testinin Temel Hipotezi (H0) "Seride birim kök vardır (durağan değildir)" şeklindedir. Ortalama p-değerlerinin 0.05'ten büyük olması, H0 hipotezinin REDDEDİLEMEDİĞİNİ gösterir.
-Dolayısıyla, mevcut serilerin (level düzeyinde) durağan olmadığı sonucuna varılmalıdır. Verilerin bu haliyle regresyona sokulması sahte regresyon (spurious regression) riski taşımaktadır ve ileri çalışmalarda serilerin birinci farklarının (first difference) alınması veya eşbütünleşme (cointegration) testlerinin yapılması gerekmektedir.
+Fisher-ADF testinin Temel Hipotezi (H0) 'Panelde birim kök vardır (durağan değildir)' şeklindedir.
+Eğer P-Value < 0.05 ise H0 reddedilir ve serinin durağan olduğu sonucuna varılır.
