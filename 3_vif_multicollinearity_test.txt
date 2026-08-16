@@ -1,0 +1,11 @@
+VIF (Çoklu Doğrusallık) Test Sonuçları
+==================================================
+          Degisken  VIF_Skoru
+   Gov_Expenditure   9.389189
+         Inflation   1.400874
+      Unemployment   3.105004
+    Investment_FDI   2.571506
+Real_Interest_Rate   1.466045
+    Trade_Openness   6.579460
+
+Not: VIF skorlarının 5'in altında olması değişkenler arası korelasyon sorunu olmadığını gösterir.
