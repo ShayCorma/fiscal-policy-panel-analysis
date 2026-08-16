@@ -33,7 +33,7 @@ Veriler, Dünya Bankası veri tabanından 18 ülke için `(i=18, t=24)` formatı
 
 ### 3.1. Diagnostik Testler
 1.  **Çoklu Doğrusallık (VIF):** Tüm bağımsız değişkenlerin VIF değerleri sınır değer olan 10'un altında (maksimum 9.38) kalmıştır.
-2.  **Panel Durağanlık (Stationarity - ADF):** Ortalama p-değerleri 0.05'in altında hesaplanarak serilerin durağan olduğu saptanmıştır.
+2.  **Panel Durağanlık (Stationarity - ADF):** Uygulanan birim kök testlerinde H0 hipotezi (seride birim kök vardır) reddedilememiştir (p > 0.05). Bu durum, mevcut değişkenlerin seviye (level) düzeyinde durağan olmadığını göstermektedir. Olası sahte regresyon risklerine karşı, bulgular değişkenler arası korelasyon çerçevesinde değerlendirilmelidir.
 3.  **Model Seçimi:** Sabit Etkiler ve Rassal Etkiler tahmincileri arasındaki Hausman testinde `P-Value = 0.9917 > 0.05` bulunmuş ve analizlere Random Effects ile devam edilmiştir. Analizlerde dirençli (robust) standart hatalar kullanılmıştır.
 
 ---
@@ -63,10 +63,4 @@ Veri seti, Gelişmiş (Developed) ve Gelişmekte Olan (Emerging) ülkeler olarak
 
 ## 5. Sonuç (Conclusion)
 
-Bu çalışma, 18 ülkeyi kapsayan 2000-2023 dönemine ait panel veri seti üzerinden, maliye politikası ile ekonomik büyüme arasındaki ilişkiye dair ampirik bulgular sunmaktadır.
-
-Uygulanan ekonometrik modeller neticesinde, analiz edilen dönem ve ülke örneklemi özelinde devlet harcamalarındaki artışın ekonomik büyüme ile istatistiksel olarak anlamlı ve negatif bir ilişki içinde olduğu saptanmıştır. Bu bulgu, mali genişlemenin dışlama etkisi (crowding out) yaratabileceğini savunan klasik ekol beklentileriyle tutarlıdır.
-
-Öte yandan çalışmanın temel motivasyonlarından biri olan "kriz dönemlerinde devlet müdahalesinin ekonomik daralmayı engelleyici bir rol oynadığı (Keynesyen çarpan)" hipotezi test edilmiştir. Kriz yıllarını temsil eden kukla değişken ile harcamaların etkileşim terimi incelendiğinde, bu iki dönem arasında istatistiksel olarak anlamlı bir farklılaşma tespit edilememiştir. Bir başka deyişle, devlet harcamalarının büyüme üzerindeki negatif yönlü ilişkisinin kriz dönemlerinde yapısal bir kırılmaya uğradığını destekleyecek yeterli ampirik kanıt bulunamamıştır.
-
-Gelecek çalışmalarda harcamaların kompozisyonu (cari harcamalar vs. yatırım harcamaları) veya farklı enstrümanlarla (Araç Değişken / GMM) yapılacak modeller, bu dinamiklerin daha net ayrıştırılmasına olanak tanıyabilir.
+İncelenen örneklemde devlet harcamaları ile büyüme arasında negatif yönlü ve anlamlı bir ilişki bulunmuştur. Ancak kriz dönemlerinde bu ilişkinin değiştiğine dair istatistiksel olarak anlamlı kanıt elde edilememiştir. Bu nedenle çalışma, Keynesyen maliye politikasının kriz dönemlerinde daha etkili olduğu hipotezini doğrulayamamıştır. Ayrıca, kullanılan Random Effects modeli değişkenler arası ilişkileri tespit etmekte başarılı olsa da, nedensellik (causality) çıkarımı yapabilmek için gelecekte Araç Değişken (IV) veya Sistem GMM gibi daha ileri yöntemlerin kullanılması önerilmektedir.

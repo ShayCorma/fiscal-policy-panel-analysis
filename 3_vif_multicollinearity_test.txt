@@ -8,4 +8,5 @@ VIF (Çoklu Doğrusallık) Test Sonuçları
 Real_Interest_Rate   1.466045
     Trade_Openness   6.579460
 
-Not: VIF skorlarının 5'in altında olması değişkenler arası korelasyon sorunu olmadığını gösterir.
+Metodolojik Not: 
+VIF değerleri 5 ile 10 arasında olan değişkenler (Gov_Expenditure ve Trade_Openness) orta düzeyde çoklu doğrusallık (multicollinearity) problemi barındırmaktadır. Her ne kadar kritik eşik olan 10 değerinin altında kalsalar da, "çoklu doğrusallık sorunu yoktur" demek istatistiksel olarak hatalıdır. Analiz sonuçları yorumlanırken bu bağımlılık göz önünde bulundurulmalıdır.

@@ -3,4 +3,6 @@ Panel Birim Kök (Stationarity) Test Özeti
 GDP_Growth Ortalama P-Value: 0.2288
 Gov_Expenditure Ortalama P-Value: 0.3783
 
-Sonuç: P-değerleri 0.05 civarında veya altındaysa seriler genel hatlarıyla durağandır.
+Metodolojik Not:
+ADF testinin Temel Hipotezi (H0) "Seride birim kök vardır (durağan değildir)" şeklindedir. Ortalama p-değerlerinin 0.05'ten büyük olması, H0 hipotezinin REDDEDİLEMEDİĞİNİ gösterir.
+Dolayısıyla, mevcut serilerin (level düzeyinde) durağan olmadığı sonucuna varılmalıdır. Verilerin bu haliyle regresyona sokulması sahte regresyon (spurious regression) riski taşımaktadır ve ileri çalışmalarda serilerin birinci farklarının (first difference) alınması veya eşbütünleşme (cointegration) testlerinin yapılması gerekmektedir.
