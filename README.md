@@ -1,12 +1,7 @@
 # Fiscal Policy Effectiveness Across Economic Conditions: A Panel Data Analysis of Government Spending and Economic Growth
 
-**Author:** [Your Name / Research Group]  
-**Date:** August 2026  
-**Methodology:** Panel Data Econometrics (Random Effects, Interaction Models)  
 
----
-
-## 1. Özet (Abstract)
+## 1. Özet
 Bu çalışma, devlet harcamalarının ekonomik büyüme (GDP Growth) üzerindeki etkisini, **Keynesyen** ve **Hayekçi (Neo-Klasik)** teoriler ekseninde, gelişmiş ve gelişmekte olan 18 ülkenin 2000-2023 yılları arasındaki Panel Veri seti üzerinden incelemektedir. Çalışmanın asıl amacı, maliye politikasının salt etkisini ölçmekten ziyade; bu etkinin "Kriz Dönemlerinde" (2008 Küresel Finans Krizi ve 2020 COVID-19) nasıl yön değiştirdiğini tespit etmektir. 
 
 Yapılan Hausman ve diagnostik testler sonucunda Random Effects (Rassal Etkiler) modeli tercih edilmiştir. Ampirik bulgular, devlet harcamalarının normal dönemlerde dışlama etkisi (crowding out) yarattığını; ancak **kriz dönemlerinde mali çarpanın (fiscal multiplier) pozitif yönde ivmelenerek** Keynesyen görüşü desteklediğini ortaya koymuştur.
